@@ -21,7 +21,6 @@ This project uses [Grunt](http://gruntjs.com/) to automate building the applicat
        "url": "https://webadaptor.domain.com/arcgis",
        "username": "admin",
        "password": "password"}
-      
       ```
   * Run `grunt` from the command line.
   * The config file for the app will be generated and the entire, deployable build will be available in the `build` folder.
