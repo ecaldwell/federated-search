@@ -1,0 +1,15 @@
+{
+    "name": "federated-search",
+    "version": "0.1.0",
+    "author": "Evan Caldwell <ecaldwell@esri.com>",
+    "description": "A sample application to perform a federated search across multiple instances of Portal for ArcGIS and ArcGIS Online.",
+    "keywords": ["Portal for ArcGIS", "ArcGIS Online", "search"],
+    "homepage": "https://github.com/ecaldwell/federated-search",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-cli": "^0.1.13",
+        "grunt-contrib-copy": "^0.5.0",
+        "grunt-markdown": "^0.5.0"
+    }
+}
