@@ -9,7 +9,7 @@ This project uses [Grunt](http://gruntjs.com/) to automate building the applicat
 #### With Grunt
   * Download and install [node.js](http://nodejs.org/).
   * Download or clone this project to your machine.
-  * Go to the project folder in your terminal or command window and run `npm install`. (This should automatically download the project's dependencies, including Grunt).
+  * Go to the project folder in your terminal or command prompt and run `npm install`. (This should automatically download the project's dependencies, including Grunt). If you get an error saying `grunt is not recognized...` you may need to run the command `npm install -g grunt-cli` to install it globally.
   * Modify the app config in the file `Gruntfile.js` to include specific settings for your app.
     * `url`: where your app will be hosted (try `127.0.0.1` or `localhost` for development)
     * `proxy`: optional proxy url to send requests through
