@@ -17,10 +17,12 @@ This project uses [Grunt](http://gruntjs.com/) to automate building the applicat
     * `expiration`: lifetime (in minutes) of the tokens used when searching
     * `portals`: an array of the Portals/ArcGIS Online orgs you want to include in the search. The only required info is `name` and `url`, but to use an authenticated search you need to add a `username` and `password`. These will be used to generate a token that is stored with the application.
       ```
+      
       {"name": "My Portal",
        "url": "https://webadaptor.domain.com/arcgis",
        "username": "admin",
        "password": "password"}
+       
       ```
   * Run `grunt` from the command line.
   * The config file for the app will be generated and the entire, deployable build will be available in the `build` folder.
